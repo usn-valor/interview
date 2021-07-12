@@ -31,8 +31,10 @@ class Triangle extends Shape {
 class Test {
 
     public static void main(String[] args) {
-        Shape shape = new Circle();
+        Shape shape1 = new Circle();
         testShape(shape);
+        Shape shape2 = new Square();
+        testShape(shape2);
     }
 
     private static void testShape(Shape shape) {
