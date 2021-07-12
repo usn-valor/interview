@@ -32,7 +32,7 @@ class Test {
 
     public static void main(String[] args) {
         Shape shape1 = new Circle();
-        testShape(shape);
+        testShape(shape1);
         Shape shape2 = new Square();
         testShape(shape2);
     }
